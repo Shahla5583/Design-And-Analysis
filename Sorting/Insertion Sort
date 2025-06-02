@@ -1,0 +1,25 @@
+arr = [64, 34, 25, 12, 22, 11, 90]; 
+n = length(arr);
+
+disp('Original array:');
+disp(arr);
+
+for i = 2:n
+    key = arr(i);         % Take the current element
+    j = i - 1;
+    
+    % Move elements of arr(1..i-1) that are greater than key one position ahead
+    while j >= 1 && arr(j) > key
+        arr(j + 1) = arr(j);
+        j = j - 1;
+    end
+    
+    arr(j + 1) = key;      % Insert the key in the correct position
+
+    % Display array after each pass (optional)
+    fprintf('After pass %d: ', i - 1);
+    disp(arr);
+end
+
+fprintf('Sorted array:\n');
+disp(arr);
