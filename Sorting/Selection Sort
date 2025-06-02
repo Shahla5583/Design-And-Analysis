@@ -1,0 +1,28 @@
+arr = [3, 5, 7, 9, 11, 13]; 
+
+n=length(arr);
+disp(arr);
+
+
+for i=1:n-1       %Check the whole array
+    
+     minIndex=i;  %assume i as the min index
+
+     for j=i+1:n
+         if arr(j) <arr(minIndex)
+             minIndex=j;
+         end
+     end
+
+     %swap
+     if minIndex~=i
+         temp=arr(i);
+         arr(i)=arr(minIndx);
+         arr(minIndex)=temp;
+     end
+end
+%display array state at each step
+     fprintf("Sorted array\n");
+     fprintf('Step %d:',i);
+     disp(arr);
+    
