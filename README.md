@@ -4,4 +4,5 @@
 ![image](https://github.com/user-attachments/assets/7f129343-d1ad-4de5-980d-9b72182f004b)
 # Selection Sort
 ![image](https://github.com/user-attachments/assets/95e10a39-3341-4bfa-b3f3-47ed47ceb9d7)
-
+# Merge Sort
+![image](https://github.com/user-attachments/assets/db174981-5118-4c41-8f6d-be4d49cc5d6a)
