@@ -1,1 +1,70 @@
 
+4.
+%binary search
+
+arr = [3,5,7,9,11,13];
+target = 9;
+low = 1;
+high = length(arr);
+found = false;
+
+while low <= high
+    mid = floor((low + high) / 2);
+    
+    if arr(mid) == target
+        fprintf("Index of %d is %d\n", target, mid);
+        found = true;
+        break;
+    elseif arr(mid) < target
+        low = mid + 1;
+    else
+        high = mid - 1;
+    end
+end
+
+if ~found
+    fprintf("Element not found\n");
+end
+
+% Generate an array with 1000 random numbers
+array = randi([1, 10000], 1, 1000);   %array=1:1000
+target = array(randi([1, 1000])); % Select a random target from the array  %target=978
+
+% Linear Search
+tic;
+found = false;
+for i = 1:length(array)
+    if array(i) == target
+        found = true;
+        break;
+    end
+end
+linearSearchTime = toc;
+
+% Binary Search (After sorting)
+sortedArray = sort(array); % Sort the array first
+tic;
+left = 1;
+right = length(sortedArray);
+found = false;
+while left <= right
+    mid = floor((left + right) / 2);
+    if sortedArray(mid) == target
+        found = true;
+        break;
+    elseif sortedArray(mid) < target
+        left = mid + 1;
+    else
+        right = mid - 1;
+    end
+end
+binarySearchTime = toc;
+
+% Display results
+fprintf('Linear Search Time: %.6f seconds\n', linearSearchTime);
+fprintf('Binary Search Time: %.6f seconds\n', binarySearchTime);
+
+
+Output:
+Linear Search Time: 0.019665 seconds
+Binary Search Time: 0.002429 seconds
