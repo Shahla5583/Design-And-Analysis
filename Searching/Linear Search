@@ -1,1 +1,101 @@
+%Searching Algorithm
+
+Day6 
+14th May 2025
+
+1)Time Complexity
+1.for loop
+n=10;
+tic;
+for i=1:n
+    disp (i)
+end
+elapsedTime=toc;
+
+fprintf("Elapsed Time: %f seconds\n", elapsedTime);
+
+Output:
+1
+
+     2
+
+     3
+
+     4
+
+     5
+
+     6
+
+     7
+
+     8
+
+     9
+
+    10
+
+Elapsed Time: 0.019612 seconds
+
+
+%n =10 => Elapsed Time: 0.001112 seconds
+%n= 100 => Elapsed Time: 0.004671 seconds
+%n= 1000 => Elapsed Time: 0.024736 seconds
+
+2.
+arr=[3,5,7,9,11,13];
+target=10;
+n=length(arr);
+found=false;
+for i=1:n
+    if arr(i) == target
+        fprintf("Index of %d is %d\n",target, i);
+        found=true;
+        break;
+    end
+end
+
+if ~found
+     fprintf("Element not found\n");
+end
+
+
+output:
+Index of 9 is 4
+
+%another method without using fount flag
+arr = [3,5,7,9,11,13];
+target = 9;
+n = length(arr);
+
+for i = 1:n
+    if arr(i) == target
+        fprintf("Index of %d is %d\n", target, i);
+        break; % Exit the loop immediately once found
+    end
+end
+
+% If the loop completes without finding the target, print "Element not found"
+if i > n
+    fprintf("Element not found\n");
+end
+
+3.
+%find the time complexity for this linear search
+
+array=[3,6,8,12,14,17,25,29,31,36,42,47,53,55,62];
+target=62;
+n=length(array);
+found=false;
+tic;
+for i=1:n
+    if array(i) == target
+       % fprintf("Index of %d is %d\n",target, i);
+        found=true;
+        break;
+    end
+end
+elapsedtime=toc;
+fprintf("Elapsed Time: %f seconds\n", elapsedTime);
+
 
