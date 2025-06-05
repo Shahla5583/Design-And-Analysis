@@ -18,7 +18,8 @@
 ![image](https://github.com/user-attachments/assets/0ab5aeb6-cb83-4e63-8b37-052dbd474fc0)
 ## Weighted Graph
 ![image](https://github.com/user-attachments/assets/685a8ad0-483d-42f3-be0a-39c46452cb9a)
-##  Adjacency Matrics (Day_02)
+
+## Graphs-Adjacency Matrics (Day_02)
 ![image](https://github.com/user-attachments/assets/d56747ac-a753-4723-a57b-97d680da2cb9)
 
 ![image](https://github.com/user-attachments/assets/606b0844-01bf-49b8-a579-abbaa0cd569b)
@@ -28,6 +29,11 @@
 ![image](https://github.com/user-attachments/assets/7adaf0da-2ff5-41f6-b4ec-7173317cbc0b)
 
 ![image](https://github.com/user-attachments/assets/db276e31-51a5-4f52-b407-32ef8d08c940)
+
+![image](https://github.com/user-attachments/assets/8b38c99d-239c-4f8a-aa93-635ac2941701)
+
+![image](https://github.com/user-attachments/assets/507b8039-a71e-4192-8447-ecbce5a1f457)
+
 
 
 
