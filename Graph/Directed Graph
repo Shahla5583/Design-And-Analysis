@@ -1,3 +1,0 @@
-G=digraph([2,1],[2,3]);
-plot(G);
-title("Directed graph");
