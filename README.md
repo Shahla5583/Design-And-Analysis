@@ -34,7 +34,10 @@
 
 ![image](https://github.com/user-attachments/assets/507b8039-a71e-4192-8447-ecbce5a1f457)
 
+## Simple Tree
+![image](https://github.com/user-attachments/assets/fbba0e7c-4af9-4a49-8c52-34d14c205ccc)
 
-
+## Weighted Tree
+![image](https://github.com/user-attachments/assets/81382b4a-22b5-4c13-8586-144e37fdcb76)
 
 
