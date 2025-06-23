@@ -1,3 +1,4 @@
+--------------------------------------OUTPUTS IN README FILE---------------------------------------
 1)
 nodes={'A','B','C','D','E','F','G'};
 define edges using source and target nodes
